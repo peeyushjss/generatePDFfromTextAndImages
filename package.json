@@ -1,0 +1,31 @@
+{
+  "name": "generate_pdf",
+  "version": "1.0.0",
+  "description": "Generate pdf from text, html and images.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peeyushjss/generatePDFfromTextAndImages.git"
+  },
+  "keywords": [
+    "Pdf",
+    "Node"
+  ],
+  "author": "Peeyush Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peeyushjss/generatePDFfromTextAndImages/issues"
+  },
+  "homepage": "https://github.com/peeyushjss/generatePDFfromTextAndImages#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.11.0",
+    "pdfkit": "^0.8.1"
+  }
+}
